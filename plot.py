@@ -257,5 +257,5 @@ def generate_tctracks(tctracks):
 
 #generate_tctrack(rsmc.get_random_track('bst_all.txt'))
 
-for tctrack in rsmc.get_tracks('bstnew_2019.txt.1'):
+for tctrack in rsmc.get_tracks('tctrack_2023.txt'):
     generate_tctrack(tctrack)
