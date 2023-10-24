@@ -263,5 +263,5 @@ def generate_tctracks(tctracks):
 #for tctrack in rsmc.get_tracks('bst_2018.txt'):
 #    generate_tctrack(tctrack)
 
-generate_tctracks(list(rsmc.get_tracks('bst_2018.txt')))
+generate_tctracks(list(rsmc.get_tracks('tracks_2023.txt')))
 #generate_tctracks([x for x in rsmc.get_tracks('bst_2017_july.txt')] + [x for x in jtwc.get_tracks('jtwc_2017.txt')])
