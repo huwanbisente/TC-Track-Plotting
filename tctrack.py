@@ -124,7 +124,7 @@ def get_random_track(fname):
 if __name__ == '__main__':
 #    for t in get_tracks('bst_all.txt'):
 #        print("{} - {}".format(t.start, t.end))
-    t = get_random_track('bst_all.txt')
+    t = get_random_track('tracks_2023.txt')
     print(','.join(['name', 'ts', 'lat', 'lon', 'ws', 'src']))
     for name, date, lat, lon, ws, src in t.data:
         if ws:
